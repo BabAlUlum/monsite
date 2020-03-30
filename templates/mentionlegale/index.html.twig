@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Portfolio - Mentions légales{% endblock %}
+
+{% block body %}
+
+<div class="salt8">
+    <h1> Mentions légales </h1>
+    <div class="d-flex m-1">
+        <div class="col-8">
+            <h3 class="p-2"> Qui s'occupe du site ? </h3>
+            <p class="lead">
+                J'ai conçu ce site de A à Z et je m'occupe seul de l'administration et de la gestion du site.
+            </p>
+            <h3 class="p-2"> Comment est structuré le site ? </h3>
+                <ul>
+                    {# <li>
+                        <p class="lead"> Le serveur qui répond à vos requêtes est hébergé chez <a href="https://cloud.google.com/" role="button"> GCP (Google Cloud Plateform) </a> et est équipé du système d'exploitation Debian GNU/Linux 9 (stretch), </p>
+                    </li> #}
+                    <li>
+                        <p class="lead"> Le serveur qui répond à vos requêtes est hébergé chez <a href="https://www.heroku.com/" role="button"> Heroku </a>. Les machines Heroku utilisent une distribution Linux nommée Cedar, basée sur Ubuntu. </p>
+                    </li>
+                    <li>
+                        <p class="lead"> Le site a été développé en utilisant principalement le blibliothèque de <a href="#" role="button"> Bootstrap 4</a> avec le framework <a href="#" role="button">Symfony 4</a> </p>
+                    </li>
+                </ul>
+            <h3 class="p-2"> Contenu embarqué depuis d’autres sites </h3>
+            <p class="lead">
+                Certains articles de ce site peuvent inclure des contenus intégrés (par exemple des vidéos, images, articles…).
+                Le contenu intégré depuis d’autres sites se comporte de la même manière que si le visiteur se rendait sur cet autre site.
+            </p>
+            <p class="lead">
+                Ces sites web pourraient collecter des données sur vous, utiliser des cookies, embarquer des outils de suivis tiers,
+                suivre vos interactions avec ces contenus embarqués si vous disposez d’un compte connecté sur leur site web.
+            </p>
+            <h3 class="p-2"> A propos du formulaire de contact </h3>
+            <p class="lead">
+                Le formulaire de contact utilise <a href="https://www.google.com/recaptcha/intro/v3.html" role="button"> reCAPTCHA </a> afin de lutter contre le SPAM.
+                L'utilisation de cette fonctionnalité est soumise aux <a href="https://policies.google.com/privacy?hl=fr" role="button"> Règles de confidentialité </a> et aux <a href="https://policies.google.com/terms?hl=fr" role="button"> Conditions d'utilisation de Google </a>.
+            </p>
+        </div>
+        <div class="col-4 p-3">
+            <img src="images/salt.jpg" class="w-100" alt="...">
+        </div>
+    </div>
+</div>
+{% endblock %}
