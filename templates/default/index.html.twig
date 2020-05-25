@@ -275,25 +275,84 @@
 
  <!--Partie de la veille technologie-->
     <div class="bg-white mt-5"><h2 class="title mt-1">Veille technologie</h2>
+
         <div class="m-4 d-flex row">
-            <div class="bg-white text-white col-sm-4">
-                <img class="card-img" src="images/vt01.jpg" class="d-block w-100" alt="carousel01">
-                <div class="card-img-overlay">
-                    <h4 class="card-title ml-3">Cybersécurité</h4>
+            
+            <!-- Cybersécurité -->
+            <div class="col-lg-4 col-md-12 mb-3">
+                <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <!--Content-->
+                        <div class="modal-content">
+                            <!--Body-->
+                            <div class="modal-body text-center p-3">
+                                <h4 class="card-title ml-3">Cybersécurité</h4>
+                                <p class="text-justify pt-1 pl-3 pr-">
+                                    Le mot cybersécurité est un néologisme désignant le rôle de l'ensemble des lois, politiques, outils, dispositifs, concepts et mécanismes de sécurité, 
+                                    méthodes de gestion des risques, actions, formations, bonnes pratiques et technologies qui peuvent être utilisés pour protéger les personnes et les 
+                                    actifs informatiques matériels et immatériels (connectés directement ou indirectement à un réseau) des états et des organisations 
+                                    (avec un objectif de disponibilité, intégrité et authenticité, confidentialité, preuve et non-répudiation).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- image view -->
+                <a><img class="card-img z-depth-1" src="images/vt01.jpg" alt="video" data-toggle="modal" data-target="#modal1"></a>
             </div>
-            <div class="bg-white text-white col-sm-4">
-                <img class="card-img" src="images/vt02.jpg" class="d-block w-100" alt="carousel02">
-                <div class="card-img-overlay">
-                    <h4 class="card-title">Le réseau 5G</h4>
+            
+            <!-- Le réseau 5G -->
+            <div class="col-lg-4 col-md-12 mb-3">
+                <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <!--Content-->
+                        <div class="modal-content">
+                            <!--Body-->
+                            <div class="modal-body text-center p-3">
+                                <h4 class="card-title ml-3">Le réseau 5G</h4>
+                                <p class="text-justify pt-1 pl-3 pr-">
+                                    En télécommunications, la 5G est la cinquième génération des standards pour la téléphonie mobile, elle prolonge l'exploitation technologique LTE. Elle succède à la quatrième génération, appelée 4G.
+                                </p>
+                                <p class="text-justify pt-1 pl-3 pr-">
+                                    La technologie 5G est une nouvelle génération car elle donne accès à des débits dépassant de 2 ordres de grandeur la 4G avec des temps de latence très courts, une haute fiabilité ; 
+                                    elle permettra aussi d'augmenter le nombre de connexions simultanées par surface couverte. Elle pourrait permettre, une fois déployée, de bénéficier de débits de télécommunication 
+                                    mobile de plusieurs gigabits de données par seconde, soit jusqu'à 1 000 fois plus de débit que les réseaux mobiles employés en 20103 et jusqu'à 100 fois plus rapides que la 4G.
+                                </P>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- image view -->
+                <a><img class="card-img z-depth-1" src="images/vt02.jpg" alt="video" data-toggle="modal" data-target="#modal2"></a>
             </div>
-            <div class="bg-white text-white col-sm-4">
-                <img class="card-img" src="images/vt03.jpg" class="d-block w-100" alt="carousel03">
-                <div class="card-img-overlay">
-                    <h4 class="card-title ml-3">IOT</h4>
+
+            <!-- IOT -->
+            <div class="col-lg-4 col-md-12 mb-3">
+                <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <!--Content-->
+                        <div class="modal-content">
+                            <!--Body-->
+                            <div class="modal-body text-center p-3">
+                                <h4 class="card-title ml-3">IOT</h4>
+                                <p class="text-justify pt-1 pl-3 pr-3">
+                                    L'Internet des objets, ou IdO (en anglais (the) Internet of Things, ou IoT) est l'interconnexion entre l'Internet et des objets, des lieux et des environnements physiques. 
+                                    L'appellation désigne un nombre croissant d'objets connectés à l'Internet permettant ainsi une communication entre nos biens dits physiques et leurs existences numériques. 
+                                    Ces formes de connexions permettent de rassembler de nouvelles masses de données sur le réseau et donc, de nouvelles connaissances et formes de savoirs.
+                                </p>
+                                <p class="text-justify pt-1 pl-3 pr-3">
+                                    Considéré comme la troisième évolution de l'Internet, baptisé Web 3.0 (parfois perçu comme la généralisation du Web des objets mais aussi comme celle du Web sémantique) 
+                                    qui fait suite à l'ère du Web social, l'Internet des objets revêt un caractère universel pour désigner des objets connectés aux usages variés, dans le domaine de la e-santé, 
+                                    de la domotique ou du quantified self. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- image view -->
+                <a><img class="card-img z-depth-1" src="images/vt03.jpg" alt="video" data-toggle="modal" data-target="#modal3"></a>
             </div>
+            
         </div>
         <div class="mt-3 d-flex justify-content-center">
             <a class="btn col-xs" href="{{ path('veilletechno') }}" type="button"><i class='fas fa-eye' style='font-size:18px;color:white;'>     Consulter la veille technologique</i></a>
